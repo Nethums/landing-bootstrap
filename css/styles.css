@@ -1,7 +1,8 @@
 html {
     /*background-color: #212529;*/
-    background: url('../img/foto-valencia-2.jpg');
+    background: url('../img/fondo-valencia-90.jpg') no-repeat center center fixed;
     scroll-behavior: smooth;
+    background-size: cover;
 }
 
 * {
@@ -12,11 +13,22 @@ html {
 
 body {
     width: 1200px;
-    margin: 20px auto;
+    margin: 80px auto;
 }
 
-.imagen {
-  object-fit: cover;
+.btn-primary {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: black;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
 }
 
 .carousel-caption {
@@ -37,7 +49,11 @@ body {
   opacity: 0.5;
 }
 
-
+.acoplarImagen {
+  min-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 .galeria img {
   height: 200px;
@@ -64,47 +80,44 @@ body {
 }
 
 .card1 {
-  background: url('../img/bunuelos_1.jpg');  
+  background: url('../img/bunuelos_1.jpg') no-repeat center center;  
   background-size: cover; 
 }
 
 .card2 {
-  background: url('../img/calles_iluminadas_1.jpg'); 
+  background: url('../img/calles_iluminadas_1.jpg') no-repeat center center; 
   background-size: cover;  
 }
 
 .card3 {
-  background: url('../img/crema_1.jpg');  
+  background: url('../img/crema_1.jpg') no-repeat center center;  
   background-size: cover; 
 }
 
 .card4 {
-  background: url('../img/fallas_07.jpg'); 
+  background: url('../img/fallas_07.jpg') no-repeat center center; 
   background-size: cover;  
 }
 
 .card5 {
-  background: url('../img/mascleta_3.jpg');  
+  background: url('../img/mascleta_3.jpg') no-repeat center center;  
   background-size: cover; 
 }
 
 .card6 {
-  background: url('../img/nit_del_foc_4.jpg'); 
+  background: url('../img/nit_del_foc_4.jpg') no-repeat center center; 
   background-size: cover;  
 }
 
 .card7 {
-  background: url('../img/ofrenda_2.jpg');  
+  background: url('../img/ofrenda_2.jpg') no-repeat center center;  
   background-size: cover; 
 }
 
 .card8 {
-  background: url('../img/verbenas_2.jpg'); 
+  background: url('../img/verbenas_2.jpg') no-repeat center center; 
   background-size: cover;  
 }
-
-
-
 
 
 
