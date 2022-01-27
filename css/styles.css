@@ -1,0 +1,115 @@
+html {
+    background-color: #212529;
+    scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.imagen {
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 25%;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  height: 32rem;
+  background-color: black;
+}
+
+.carousel-item > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+
+
+.galeria img {
+  height: 200px;
+}
+
+.card {
+  height: 300px;
+  display: flex;
+}
+
+.card-text {
+  margin-top: 55px;
+  width: 450px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.4s, opacity 0.4s linear;
+}
+
+.card:hover .card-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card1 {
+  background: url('../img/bunuelos_1.jpg');  
+  background-size: cover; 
+}
+
+.card2 {
+  background: url('../img/calles_iluminadas_1.jpg'); 
+  background-size: cover;  
+}
+
+.card3 {
+  background: url('../img/crema_1.jpg');  
+  background-size: cover; 
+}
+
+.card4 {
+  background: url('../img/fallas_07.jpg'); 
+  background-size: cover;  
+}
+
+.card5 {
+  background: url('../img/mascleta_3.jpg');  
+  background-size: cover; 
+}
+
+.card6 {
+  background: url('../img/nit_del_foc_4.jpg'); 
+  background-size: cover;  
+}
+
+.card7 {
+  background: url('../img/ofrenda_2.jpg');  
+  background-size: cover; 
+}
+
+.card8 {
+  background: url('../img/verbenas_2.jpg'); 
+  background-size: cover;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
