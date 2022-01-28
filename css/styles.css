@@ -74,59 +74,8 @@ h1 {
   display: flex;
 }
 
-.card-text {
-  margin-top: 55px;
-  width: 450px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.7);
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0.4s, opacity 0.4s linear;
-}
-
-.card:hover .card-text {
-  visibility: visible;
-  opacity: 1;
-}
-
-.card1 {
-  background: url('../img/bunuelos_1.jpg') no-repeat center center;  
-  background-size: cover; 
-}
-
-.card2 {
-  background: url('../img/calles_iluminadas_1.jpg') no-repeat center center; 
-  background-size: cover;  
-}
-
-.card3 {
-  background: url('../img/crema_1.jpg') no-repeat center center;  
-  background-size: cover; 
-}
-
-.card4 {
-  background: url('../img/fallas_07.jpg') no-repeat center center; 
-  background-size: cover;  
-}
-
-.card5 {
-  background: url('../img/mascleta_3.jpg') no-repeat center center;  
-  background-size: cover; 
-}
-
-.card6 {
-  background: url('../img/nit_del_foc_4.jpg') no-repeat center center; 
-  background-size: cover;  
-}
-
-.card7 {
-  background: url('../img/ofrenda_2.jpg') no-repeat center center;  
-  background-size: cover; 
-}
-
-.card8 {
-  background: url('../img/verbenas_2.jpg') no-repeat center center; 
-  background-size: cover;  
+.card-text {  
+  padding: 10px 20px;
 }
 
 
